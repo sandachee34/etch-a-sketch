@@ -1,0 +1,57 @@
+html {
+    text-align: center;
+    font-family: Monaco;
+  }
+  .page{
+      background-image: url(game.jpg);
+      float: left;
+      width:400px;
+      height: 570px;
+      margin-top: -570px;
+  }
+  .page button{
+ background-color:#808080;
+ color: white;
+ border-radius: 15px;
+ width:200px;
+ height:100px;
+ margin-top: 150px;
+}
+.page input{
+    margin-top: 150px;
+    border-radius: 15px;
+    border-style: dotted;
+    border-color: #808080;
+}
+  }
+  .right {
+    float:left;
+
+  }
+  
+  left {
+    display: inline-block;
+  }
+  
+  .square {
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  .color {
+    background-color: gray;
+    border: 1px solid black;
+  }
+  
+  .gridContainer {
+    float: left;
+    margin-top: 25px;
+    margin-left: 420px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+  }
